@@ -1,0 +1,5 @@
+^E:\ZHANGJIELEI\DOCUMENTS\WORKSPACE\WORKC\C_PLUS\LOG4CPP\LOG4CPP-1.1.3\LOG4CPP\MSVC10\NTEVENTLOGCATEGORIES.MC
+"vsvars32.bat" if not exist Debug\ md Debug\
+mc.exe -h "Debug\" -r "Debug\" "E:\ZhangJieLei\Documents\workspace\workC\C_Plus\log4cpp\log4cpp-1.1.3\log4cpp\msvc10\log4cppRunnable\..\NTEventLogCategories.mc"
+rc.exe -r -fo "Debug\NTEventLogCategories.res" "Debug\NTEventLogCategories.rc"
+link.exe /MACHINE:IX86 -dll -noentry -out:"Debug\NTEventLogAppender.dll" "Debug\NTEventLogCategories.res"

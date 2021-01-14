@@ -1,0 +1,4 @@
+2021-01-12 10:52:45,386 app1-> [  INFO] : system is running ÈÕÖ¾trst
+2021-01-12 10:52:45,386 app1-> [  WARN] : system has a warning
+2021-01-12 10:52:45,387 app1-> [ ERROR] : system has a error, can't find a file
+2021-01-12 10:52:45,387 app1-> [ FATAL] : system has a fatal error,must be shutdown
